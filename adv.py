@@ -101,8 +101,8 @@ while len(graph) < len(room_graph):
                 if room == graph[player.current_room.id][exit]:
                     direction = exit
     
-    player.travel(direction)
-    traversal_path.append(direction)        
+        player.travel(direction)
+        traversal_path.append(direction)        
 
 # TRAVERSAL TEST
 visited_rooms = set()
